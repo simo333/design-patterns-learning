@@ -1,4 +1,4 @@
-package pl.simo333.designpatterns.abstractfactory.checkboxes;
+package pl.simo333.designpatterns.abstractfactory.refactoringguruexample.checkboxes;
 
 public class WindowsCheckbox implements Checkbox {
     @Override

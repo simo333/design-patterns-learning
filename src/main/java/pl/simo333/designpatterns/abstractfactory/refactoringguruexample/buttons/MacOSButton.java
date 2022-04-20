@@ -1,4 +1,4 @@
-package pl.simo333.designpatterns.abstractfactory.buttons;
+package pl.simo333.designpatterns.abstractfactory.refactoringguruexample.buttons;
 
 public class MacOSButton implements Button {
     @Override

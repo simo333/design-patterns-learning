@@ -1,8 +1,8 @@
-package pl.simo333.designpatterns.abstractfactory.app;
+package pl.simo333.designpatterns.abstractfactory.refactoringguruexample.app;
 
-import pl.simo333.designpatterns.abstractfactory.factories.GUIFactory;
-import pl.simo333.designpatterns.abstractfactory.factories.MacOSFactory;
-import pl.simo333.designpatterns.abstractfactory.factories.WindowsFactory;
+import pl.simo333.designpatterns.abstractfactory.refactoringguruexample.factories.GUIFactory;
+import pl.simo333.designpatterns.abstractfactory.refactoringguruexample.factories.MacOSFactory;
+import pl.simo333.designpatterns.abstractfactory.refactoringguruexample.factories.WindowsFactory;
 
 public class Demo {
 
