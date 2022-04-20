@@ -1,8 +1,8 @@
-package pl.simo333.factorymetod.myexample.employees;
+package pl.simo333.designpatterns.factorymetod.myexample.employees;
 
-import pl.simo333.factorymetod.myexample.employees.factory.BuilderFactory;
-import pl.simo333.factorymetod.myexample.employees.factory.EmployeeCreator;
-import pl.simo333.factorymetod.myexample.employees.factory.PainterFactory;
+import pl.simo333.designpatterns.factorymetod.myexample.employees.factory.EmployeeCreator;
+import pl.simo333.designpatterns.factorymetod.myexample.employees.factory.PainterFactory;
+import pl.simo333.designpatterns.factorymetod.myexample.employees.factory.BuilderFactory;
 
 public class Main {
     private static EmployeeCreator creator;

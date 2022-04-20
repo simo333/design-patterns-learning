@@ -1,4 +1,4 @@
-package pl.simo333.factorymetod.myexample.employees;
+package pl.simo333.designpatterns.factorymetod.myexample.employees;
 
 public class Builder implements Employee{
 

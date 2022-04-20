@@ -1,6 +1,6 @@
-package pl.simo333.factorymetod.myexample.employees.factory;
+package pl.simo333.designpatterns.factorymetod.myexample.employees.factory;
 
-import pl.simo333.factorymetod.myexample.employees.Employee;
+import pl.simo333.designpatterns.factorymetod.myexample.employees.Employee;
 
 public abstract class EmployeeCreator {
     public void commandToWork() {

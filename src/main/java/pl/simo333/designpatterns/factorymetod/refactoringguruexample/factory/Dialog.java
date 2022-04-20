@@ -1,6 +1,6 @@
-package pl.simo333.factorymetod.refactoringguruexample.factory;
+package pl.simo333.designpatterns.factorymetod.refactoringguruexample.factory;
 
-import pl.simo333.factorymetod.refactoringguruexample.buttons.Button;
+import pl.simo333.designpatterns.factorymetod.refactoringguruexample.buttons.Button;
 
 public abstract class Dialog {
     public void renderWindow() {

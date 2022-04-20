@@ -1,8 +1,8 @@
-package pl.simo333.factorymetod.refactoringguruexample;
+package pl.simo333.designpatterns.factorymetod.refactoringguruexample;
 
-import pl.simo333.factorymetod.refactoringguruexample.factory.Dialog;
-import pl.simo333.factorymetod.refactoringguruexample.factory.HtmlDialog;
-import pl.simo333.factorymetod.refactoringguruexample.factory.WindowsDialog;
+import pl.simo333.designpatterns.factorymetod.refactoringguruexample.factory.WindowsDialog;
+import pl.simo333.designpatterns.factorymetod.refactoringguruexample.factory.Dialog;
+import pl.simo333.designpatterns.factorymetod.refactoringguruexample.factory.HtmlDialog;
 
 public class Demo {
     private static Dialog dialog;

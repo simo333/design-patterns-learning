@@ -1,4 +1,4 @@
-package pl.simo333.factorymetod.refactoringguruexample.buttons;
+package pl.simo333.designpatterns.factorymetod.refactoringguruexample.buttons;
 
 public class HtmlButton implements Button {
     @Override

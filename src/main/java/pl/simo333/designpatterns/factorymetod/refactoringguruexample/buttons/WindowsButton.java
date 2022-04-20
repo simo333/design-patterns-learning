@@ -1,9 +1,7 @@
-package pl.simo333.factorymetod.refactoringguruexample.buttons;
+package pl.simo333.designpatterns.factorymetod.refactoringguruexample.buttons;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class WindowsButton implements Button {
     JPanel panel = new JPanel();
@@ -32,12 +30,9 @@ public class WindowsButton implements Button {
     @Override
     public void onClick() {
         button = new JButton("Exit");
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.setVisible(false);
-                System.exit(0);
-            }
+        button.addActionListener(e -> {
+            frame.setVisible(false);
+            System.exit(0);
         });
     }
 }
